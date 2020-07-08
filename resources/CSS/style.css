@@ -23,13 +23,15 @@ body{
 /*--------------------------------------------*/
 
 h1{
-    font-weight: 500;
-    font-size: 150%;
+    font-weight: 800;
+    font-size: 220%;
+    color: #000000;
 }
 
 h3{
     font-weight: 400;
     font-size: 100%;
+    padding-top: 25px;
 }
 h5{
     font-weight: 400;
@@ -41,24 +43,25 @@ h6{
     color: gray;
 }
 p{
-    font-weight: 300;
-    font-size: 80%;
-}
-.price{
     font-weight: 400;
-    font-size: 130%;
-    color: #ff136f;
+    font-size: 80%;
 }
 .container{
     margin-bottom: 80px;
 }
-.btn-Buy{
-   background-image: linear-gradient(to bottom, #FF5898 0%,#FF136F 100%);
+section{
+    margin-bottom: 150px;
+}
+.section-title{
+    text-align: center;
+}
+.primary_btn{
+   background-color: #21B573;
     color: #fff;
     font-weight: 400;
     font-size: 60%;
-    border-radius: 8px;
-    padding: 9px 15px;
+    border-radius: 30px;
+    padding: 10px 30px;
     cursor: pointer;
     border: none;
     
@@ -73,17 +76,60 @@ footer{
 /*--------------------------------------------*/
 /*Banner Section*/
 /*--------------------------------------------*/
-.orange-bg{
-    background-color: #fceae8;
+.navbar-brand img{
+    width: 160px;
+}
+.banner-section{
+    background-color: #F0FFF0;
+}
+.banner-img{
+    width: 100%;
+}
+.span{
+    color: #DF615C;
+}
+span{
+    color: #21B573;
 }
 
-.carousel-item{
-    padding: 20px 30px;
+
+/*--------------------------------------------*/
+/*Count Section*/
+/*--------------------------------------------*/
+
+.count-section img{
+    width: 100px;
+    height: 100px;
 }
 
+.count-content{
+    text-align: center;
+}
 /*--------------------------------------------*/
-/*Catagories Section*/
+/*Course Section*/
 /*--------------------------------------------*/
-
-
+.card,.card-image{
+    padding: 10px;
+}
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.card-body{
+    padding: 10px;
+}
+.card-footer{
+    border: none;
+    background-color: #fff;
+}
+.card-icon img{
+    width: 20px;
+}
+small{
+    font-size: 60%;
+}
+.person-image{
+    width: 150px;
+}
 

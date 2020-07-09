@@ -2,15 +2,16 @@
 /*  BASIC SETUP*/
 /*--------------------------------------------*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
-body{
+body {
     background-color: #fff;
-    color: #555;
+    color: #000000;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -22,42 +23,55 @@ body{
 /*REUSABLE COMPONNENT*/
 /*--------------------------------------------*/
 
-h1{
+h1 {
     font-weight: 800;
     font-size: 220%;
-    color: #000000;
+
 }
 
-h3{
+h2 {
+    font-weight: 600;
+    font-size: 180%;
+
+}
+
+h3 {
     font-weight: 400;
     font-size: 100%;
     padding-top: 25px;
 }
-h5{
+
+h5 {
     font-weight: 400;
     font-size: 100%;
 }
-h6{
+
+h6 {
     font-weight: 400;
     font-size: 60%;
     color: gray;
 }
-p{
+
+p {
     font-weight: 400;
     font-size: 80%;
 }
-.container{
+
+.container {
     padding-bottom: 80px;
 }
-section{
+
+section {
     padding-bottom: 20px;
 }
-.section-title{
+
+.section-title {
     text-align: center;
     margin-bottom: 60px;
 }
-.primary_btn{
-   background-color: #21B573;
+
+.primary_btn {
+    background-color: #21B573;
     color: #fff;
     font-weight: 400;
     font-size: 60%;
@@ -65,9 +79,10 @@ section{
     padding: 10px 30px;
     cursor: pointer;
     border: none;
-    
+
 }
-.secondery-btn{
+
+.secondery-btn {
     background-color: #21B573;
     color: #fff;
     font-weight: 400;
@@ -76,114 +91,160 @@ section{
     padding: 10px 30px;
     cursor: pointer;
     border: none;
-     
- }
-button:focus{
+
+}
+
+button:focus {
     outline: none;
 }
 
-.subscribe{
+.subscribe {
     height: 300px;
-    background-color:  #F0FFF0;
+    background-color: #F0FFF0;
 }
+
 /*--------------------------------------------*/
 /*Banner Section*/
 /*--------------------------------------------*/
-header{
+header {
     background-color: #F0FFF0;
 }
-.banner{
+
+.banner {
     padding-bottom: 80px;
     padding-top: 60px;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     width: 160px;
 }
-.banner-img{
+
+.banner-img {
     width: 100%;
 }
-.span{
+
+.span {
     color: #DF615C;
 }
-span{
+
+span {
     color: #21B573;
+}
+
+.banner-text {
+    padding: 10px 0;
+}
+
+.navbar-nav,
+.nav-item,
+.log-in {
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.log-in {
+    font-size: 80%;
+    font-weight: 400;
 }
 
 
 /*--------------------------------------------*/
 /*Count Section*/
 /*--------------------------------------------*/
+#count-section {
+    padding-top: 20px;
+}
 
-.count-section img{
+#count-section img {
     width: 100px;
     height: 100px;
 }
 
-.count-content{
+.count-content {
     text-align: center;
 }
+
 /*--------------------------------------------*/
 /*Course Section*/
 /*--------------------------------------------*/
-.card-deck{
+.card-deck {
     padding-top: 25px;
 }
-.card,.card-image{
+
+.card,
+.card-image {
     padding: 10px;
 }
-.card{
-    border:none;
+
+.card {
+    border: none;
     box-shadow: 5px 5px 10px lightgray;
     border-radius: 10px;
 }
-.card-body{
+
+.card-body {
     padding: 10px;
 }
-.card-footer{
+
+.card-footer {
     border: none;
     background-color: #fff;
 }
-.card-icon img{
+
+.card-icon img {
     width: 20px;
 }
-small{
+
+small {
     font-size: 60%;
 }
+
 /*--------------------------------------------*/
 /*TestMonial Section*/
 /*--------------------------------------------*/
-
-.person-image img{
-    width: 150px;
-}
-.testmonial-text{
-    padding-right: 10%;
-}
-.testmonial{
+#testmonial {
     margin-bottom: 0;
 }
+
+.person-image img {
+    width: 150px;
+}
+
+.person-image {
+    padding-left: 200px;
+}
+
+.testmonial-text {
+    padding-right: 20%;
+    padding-left: 2%;
+}
+
 /*--------------------------------------------*/
-/*Subscribe Section*/
+/*Footer Section*/
 /*--------------------------------------------*/
-
-
-
-footer{
+footer {
     background-color: #141E30;
 }
-.footer{
+
+.footer {
     padding-top: 50px;
 }
-.footer-nav ul li{
+
+.footer-nav ul li {
     list-style: none;
     margin-top: 6px;
 }
 
-.container{
+.container {
     position: relative;
 }
-.footer-bottom{
-    background-color:#141E30;
+
+.footer-bottom {
+    background-color: #141E30;
     color: #fff;
     width: 100%;
     text-align: center;
@@ -191,18 +252,21 @@ footer{
     bottom: 0px;
     left: 0px;
 }
+
 a:link,
-a:visited{
+a:visited {
     text-decoration: none;
     color: #F0FFF0;
-    font-size: 80%; 
+    font-size: 80%;
 }
-.nav-title{
+
+.nav-title {
     color: #F0FFF0;
     font-weight: 500;
     font-size: 120%;
 }
-.footer-text{
+
+.footer-text {
     font-size: 80%;
     margin-right: 30px;
     color: #F0FFF0;

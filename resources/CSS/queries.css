@@ -7,7 +7,12 @@
 
 /*-----small tablet  to big  tablet  :from 678 to 1040px-----*/
 @media only screen and (max-width:1040px){
-   
+    .testmonial-text{
+        padding:0 2%;
+    }
+    .person-image{
+        padding: 30px;
+    }
  
 }
 

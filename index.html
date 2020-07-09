@@ -12,7 +12,7 @@
 <body>
 <header>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#"><img src="./resources/img/ICON/Logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,17 +29,14 @@
             <a class="nav-link" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link primary_btn" href="#">Disabled</a>
           </li>
         </ul>
       </div>
     </nav>
-  </div>
-</header>
-<section class="banner-section">
-  <div class="container">
-      <div class="row d-flex align-items-center banner-item">
-        <div class="col-md-6">
+    <div class="banner">
+      <div class="row d-flex flex-row align-items-center banner-item flex-column-reverse flex-sm-row">
+        <div class="col-md-6 ">
           <p class="span">Are you ready to Learn?</p>
           <h1>Learn With fun on <span>any schedule</span></h1>
           <p>Lorem ipsum dolor sit amet, consectetur
@@ -50,18 +47,24 @@
          <img src="./resources/img/Illustration.png" alt="" class="banner-img">
         </div>
       </div>
+    </div>
+
+
+
+
   </div>
-</section>
+</header>
+
 <section class="count-section">
     <div class="container">
-      <div class="d-flex flex-row justify-content-between">
+      <div class="d-flex flex-row justify-content-between flex-column flex-sm-row">
         <div class="count-content justify-content-center">
           <img src="./resources/img/ICON/book.png" alt="">
           <h3>1500+ Topic</h3>
           <p>Learn Anythings</p>
         </div>
        
-        <div class="count-content ">
+        <div class="count-content">
           <img src="./resources/img/ICON/Student.png" alt="">
           <h3>1800+ Students</h3>
           <p>Learn Anythings</p>
@@ -150,22 +153,82 @@
     <h2 class="section-title">
       Testimonial
     </h2>
-   <div class="row">
-      <!-- <div class="person-image ">
+   <div class="row flex-row d-flex align-items-center flex-column flex-sm-row">
+      <div class="col-md-4 person-image d-flex justify-content-end">
         <img src="./resources/img/Man.png" alt="">
       </div>
-    <div class="person-talk">
-      <p>There are many variations of passages of Lorem Ipsum available, but the
+    <div class="col-md-8 person-talk ">
+      <p class="testmonial-text">There are many variations of passages of Lorem Ipsum available, but the
       majority have suffered alteration in some form, by injected humour, 
       or randomised words which don't look even slightly believable.</p>
-    </div> -->
-    <img src="./resources/img/Man.png" alt="" class="person-image">
-    <p>There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, 
-      or randomised words which don't look even slightly believable.</p>
-   </div>
+    </div>
+    </div>
 </div>
 </section>
+<section id="subscribe">
+  <div class="container d-flex justify-content-center align-items-center orange-bg subscribe">
+    <div>
+      <h3>LET'S STAY IN TOUCH</h3>
+      <h6>Get updates on sales</h6>
+      <input class="form-control"type="text">
+      <button class="secondery-btn">SUBMIT</button>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row footer">
+      <div class="col-md-4">
+        <p class="footer-text">Millions of people of all ages and from around
+          the world are improving their lives with us</p>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4 d-flex flex-column align-items-start">
+            <h4 class="nav-title">Course</h4>
+            <div class="footer-nav">
+              <ul class="d-flex flex-column align-items-start">
+               <a href=""><li>Graphic Design</li></a>
+               <a href=""><li>Web Design</li></a>
+               <a href=""><li>Business</li></a>
+               <a href=""><li>Marketing</li></a>
+               <a href=""><li>Engineering</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-start">
+            <h4 class="nav-title">Course</h4>
+            <div class="footer-nav">
+              <ul class="d-flex flex-column align-items-start">
+               <a href=""><li>Graphic Design</li></a>
+               <a href=""><li>Web Design</li></a>
+               <a href=""><li>Business</li></a>
+               <a href=""><li>Marketing</li></a>
+               <a href=""><li>Engineering</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-start">
+            <h4 class="nav-title">Course</h4>
+            <div class="footer-nav">
+              <ul class="d-flex flex-column align-items-start">
+               <a href=""><li>Graphic Design</li></a>
+               <a href=""><li>Web Design</li></a>
+               <a href=""><li>Business</li></a>
+               <a href=""><li>Marketing</li></a>
+               <a href=""><li>Engineering</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2020.E-School.All rights reseverd</p>
+    </div>
+  </div>
+</footer>
+  
 
 
 

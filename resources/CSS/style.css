@@ -30,8 +30,8 @@ h1 {
 }
 
 h2 {
-    font-weight: 600;
-    font-size: 180%;
+    font-weight: 500;
+    font-size: 170%;
 
 }
 
@@ -98,7 +98,7 @@ button:focus {
     outline: none;
 }
 
-.subscribe {
+#subscribe {
     height: 300px;
     background-color: #F0FFF0;
 }
@@ -142,12 +142,12 @@ span {
 }
 
 .navbar-nav {
-    font-size: 110%;
+    font-size: 100%;
     font-weight: 600;
 }
 
 .log-in {
-    font-size: 80%;
+    font-size: 70%;
     font-weight: 400;
 }
 
@@ -202,6 +202,10 @@ span {
 small {
     font-size: 60%;
 }
+.card-text{
+    font-size: 65%;
+    font-weight: 400;
+}
 
 /*--------------------------------------------*/
 /*TestMonial Section*/
@@ -243,6 +247,25 @@ footer {
     position: relative;
 }
 
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #F0FFF0;
+    font-size: 65%;
+}
+
+.nav-title {
+    color: #F0FFF0;
+    font-weight: 500;
+    font-size: 100%;
+}
+
+.footer-text {
+    font-size: 70%;
+    margin-right: 30px;
+    color: #F0FFF0;
+}
 .footer-bottom {
     background-color: #141E30;
     color: #fff;
@@ -252,22 +275,6 @@ footer {
     bottom: 0px;
     left: 0px;
 }
-
-a:link,
-a:visited {
-    text-decoration: none;
-    color: #F0FFF0;
-    font-size: 80%;
-}
-
-.nav-title {
-    color: #F0FFF0;
-    font-weight: 500;
-    font-size: 120%;
-}
-
-.footer-text {
-    font-size: 80%;
-    margin-right: 30px;
-    color: #F0FFF0;
+.footer-copy{
+    font-size: 60%;
 }
